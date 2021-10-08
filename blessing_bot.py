@@ -13,9 +13,6 @@ def tweetBlessing():
     # Give access to api
     api = tweepy.API(auth)
 
-    # Take input to be tweeted
-    # tweet = input("What do you want to tweet?: ")
-
     # Tweeting with my developer twitter account
     api.update_status(status = "Today is a blessing ❤️")
 
