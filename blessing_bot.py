@@ -1,5 +1,4 @@
 import tweepy
-from tweepy import api
 
 def tweetBlessing():
     api_key = ""
